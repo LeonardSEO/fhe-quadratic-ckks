@@ -1,0 +1,410 @@
+{
+  "scope": "M4, B128, real separate client and exec-child HTTP server. One Go execution thread per process. 5 fresh key/process rounds,31 timed encryptions per setting. Parent/child process-tree time logs are not used as isolated client memory. Public model is encoded twice in this test architecture, and both times are charged.",
+  "profiles": [
+    {
+      "model": "synthetic_d8h64seed20261020",
+      "dimension": 8,
+      "batch": 128,
+      "method": "triangular_direct",
+      "candidate": false,
+      "server_seconds": 0.006188291,
+      "chain_seconds": 0.008714583,
+      "setup_seconds": 0.06899250100000001,
+      "public_frontend_seconds": 0.0007677920075366274,
+      "peak_rss_bytes": 86982656,
+      "peak_rss_range_bytes": [
+        79298560,
+        87359488
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 12585902,
+      "encoded_transform_bytes": 2097536,
+      "plaintext_multiplications": 8,
+      "rotations": 10,
+      "rotation_keys": 7,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "paired_speedup_median": 1.0,
+      "paired_speedup_range": [
+        1.0,
+        1.0
+      ],
+      "wins_of_five": 0,
+      "process_chain_seconds": [
+        0.008633916,
+        0.008552667,
+        0.008714583,
+        0.009801416,
+        0.009908958
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d8h64seed20261020",
+      "dimension": 8,
+      "batch": 128,
+      "method": "oriented_direct",
+      "candidate": true,
+      "server_seconds": 0.00554075,
+      "chain_seconds": 0.008309792,
+      "setup_seconds": 0.05318558500000001,
+      "public_frontend_seconds": 0.0007677920075366274,
+      "peak_rss_bytes": 65765376,
+      "peak_rss_range_bytes": [
+        65667072,
+        67338240
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 7866182,
+      "encoded_transform_bytes": 1310960,
+      "plaintext_multiplications": 5,
+      "rotations": 7,
+      "rotation_keys": 4,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        1.0860044934910793,
+        1.0292275667068442,
+        1.1393162128336678,
+        1.153826123275809,
+        1.072398051948052
+      ],
+      "paired_speedup_median": 1.0860044934910793,
+      "paired_speedup_range": [
+        1.0292275667068442,
+        1.153826123275809
+      ],
+      "wins_of_five": 5,
+      "process_chain_seconds": [
+        0.007950166,
+        0.008309792,
+        0.007648959,
+        0.008494708,
+        0.00924
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d8h64seed20261020",
+      "dimension": 8,
+      "batch": 128,
+      "method": "oriented_bsgs3",
+      "candidate": true,
+      "server_seconds": 0.006854208,
+      "chain_seconds": 0.009426875,
+      "setup_seconds": 0.052111124,
+      "public_frontend_seconds": 0.0007677920075366274,
+      "peak_rss_bytes": 59785216,
+      "peak_rss_range_bytes": [
+        57638912,
+        61800448
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 7866182,
+      "encoded_transform_bytes": 1310960,
+      "plaintext_multiplications": 5,
+      "rotations": 7,
+      "rotation_keys": 4,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        0.9491949299700827,
+        0.9029618682504853,
+        0.937568606355653,
+        1.0397311940595373,
+        1.0132592420801017
+      ],
+      "paired_speedup_median": 0.9491949299700827,
+      "paired_speedup_range": [
+        0.9029618682504853,
+        1.0397311940595373
+      ],
+      "wins_of_five": 2,
+      "process_chain_seconds": [
+        0.009096041,
+        0.009471792,
+        0.009294875,
+        0.009426875,
+        0.009779292
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d16h128seed20261021",
+      "dimension": 16,
+      "batch": 128,
+      "method": "triangular_direct",
+      "candidate": false,
+      "server_seconds": 0.009429084,
+      "chain_seconds": 0.01213875,
+      "setup_seconds": 0.11060745899999999,
+      "public_frontend_seconds": 0.004296166996937245,
+      "peak_rss_bytes": 127221760,
+      "peak_rss_range_bytes": [
+        126615552,
+        128122880
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 25171822,
+      "encoded_transform_bytes": 4195072,
+      "plaintext_multiplications": 16,
+      "rotations": 19,
+      "rotation_keys": 15,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "paired_speedup_median": 1.0,
+      "paired_speedup_range": [
+        1.0,
+        1.0
+      ],
+      "wins_of_five": 0,
+      "process_chain_seconds": [
+        0.012258125,
+        0.012053041,
+        0.011999291,
+        0.012235167,
+        0.01213875
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d16h128seed20261021",
+      "dimension": 16,
+      "batch": 128,
+      "method": "oriented_direct",
+      "candidate": true,
+      "server_seconds": 0.007412542,
+      "chain_seconds": 0.010138875,
+      "setup_seconds": 0.07226649900000001,
+      "public_frontend_seconds": 0.004296166996937245,
+      "peak_rss_bytes": 90357760,
+      "peak_rss_range_bytes": [
+        90046464,
+        90669056
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 14159142,
+      "encoded_transform_bytes": 2359728,
+      "plaintext_multiplications": 9,
+      "rotations": 12,
+      "rotation_keys": 8,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        1.2090222041400056,
+        1.2065206347560247,
+        1.1798132835160513,
+        1.191649954414046,
+        1.2279038009255747
+      ],
+      "paired_speedup_median": 1.2065206347560247,
+      "paired_speedup_range": [
+        1.1798132835160513,
+        1.2279038009255747
+      ],
+      "wins_of_five": 5,
+      "process_chain_seconds": [
+        0.010138875,
+        0.009989917,
+        0.0101705,
+        0.010267417,
+        0.00988575
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d16h128seed20261021",
+      "dimension": 16,
+      "batch": 128,
+      "method": "oriented_bsgs3",
+      "candidate": true,
+      "server_seconds": 0.008712708,
+      "chain_seconds": 0.011546667,
+      "setup_seconds": 0.074505541,
+      "public_frontend_seconds": 0.004296166996937245,
+      "peak_rss_bytes": 82493440,
+      "peak_rss_range_bytes": [
+        79282176,
+        84475904
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 14159142,
+      "encoded_transform_bytes": 2359728,
+      "plaintext_multiplications": 9,
+      "rotations": 12,
+      "rotation_keys": 8,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        1.078846619287553,
+        1.0438545599349145,
+        0.9970881643378159,
+        1.0921859291951819,
+        1.0226016553026007
+      ],
+      "paired_speedup_median": 1.0438545599349145,
+      "paired_speedup_range": [
+        0.9970881643378159,
+        1.0921859291951819
+      ],
+      "wins_of_five": 4,
+      "process_chain_seconds": [
+        0.01136225,
+        0.011546667,
+        0.012034333,
+        0.011202458,
+        0.011870458
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d32h128seed20261022",
+      "dimension": 32,
+      "batch": 128,
+      "method": "symmetric_bsgs3",
+      "candidate": false,
+      "server_seconds": 0.016174125,
+      "chain_seconds": 0.01998275,
+      "setup_seconds": 0.171579709,
+      "public_frontend_seconds": 0.017083915998227894,
+      "peak_rss_bytes": 105431040,
+      "peak_rss_range_bytes": [
+        101761024,
+        105955328
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 17305622,
+      "encoded_transform_bytes": 8390144,
+      "plaintext_multiplications": 32,
+      "rotations": 15,
+      "rotation_keys": 10,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "paired_speedup_median": 1.0,
+      "paired_speedup_range": [
+        1.0,
+        1.0
+      ],
+      "wins_of_five": 0,
+      "process_chain_seconds": [
+        0.017062208,
+        0.020127583,
+        0.020052916,
+        0.01998275,
+        0.018803291
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d32h128seed20261022",
+      "dimension": 32,
+      "batch": 128,
+      "method": "oriented_direct",
+      "candidate": true,
+      "server_seconds": 0.011936625,
+      "chain_seconds": 0.015597125,
+      "setup_seconds": 0.159950206,
+      "public_frontend_seconds": 0.017083915998227894,
+      "peak_rss_bytes": 135086080,
+      "peak_rss_range_bytes": [
+        131203072,
+        135872512
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 26745062,
+      "encoded_transform_bytes": 4457264,
+      "plaintext_multiplications": 17,
+      "rotations": 21,
+      "rotation_keys": 16,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        1.1389738799531357,
+        1.223778283358818,
+        1.2253632245892498,
+        1.2811816280243955,
+        1.385451605435266
+      ],
+      "paired_speedup_median": 1.2253632245892498,
+      "paired_speedup_range": [
+        1.1389738799531357,
+        1.385451605435266
+      ],
+      "wins_of_five": 5,
+      "process_chain_seconds": [
+        0.014980333,
+        0.016447083,
+        0.016364875,
+        0.015597125,
+        0.013571958
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d32h128seed20261022",
+      "dimension": 32,
+      "batch": 128,
+      "method": "oriented_bsgs3",
+      "candidate": true,
+      "server_seconds": 0.013502458,
+      "chain_seconds": 0.01718075,
+      "setup_seconds": 0.118793877,
+      "public_frontend_seconds": 0.017083915998227894,
+      "peak_rss_bytes": 85983232,
+      "peak_rss_range_bytes": [
+        85753856,
+        86294528
+      ],
+      "memory_scope": "isolated server child rusage, not client or combined memory",
+      "evaluation_key_bytes": 15732382,
+      "encoded_transform_bytes": 4457264,
+      "plaintext_multiplications": 17,
+      "rotations": 14,
+      "rotation_keys": 9,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "paired_chain_speedups": [
+        1.0060239237615094,
+        1.1715194621887868,
+        1.126795192919743,
+        1.1477001055359721,
+        1.1748905965281435
+      ],
+      "paired_speedup_median": 1.1477001055359721,
+      "paired_speedup_range": [
+        1.0060239237615094,
+        1.1748905965281435
+      ],
+      "wins_of_five": 5,
+      "process_chain_seconds": [
+        0.016960042,
+        0.01718075,
+        0.017796416,
+        0.017411125,
+        0.016004291
+      ],
+      "warmup_and_shutdown_included_in_setup": true
+    }
+  ]
+}

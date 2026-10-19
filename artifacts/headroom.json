@@ -1,0 +1,89 @@
+{
+  "all_pass": true,
+  "records": [
+    {
+      "model": "archive8h64",
+      "quadratic_all_partial_sum_bound": 1814.0,
+      "original_network_absolute_sum_bound": 15476.0,
+      "packed_affine_squared_absolute_sum_bound": {
+        "spectral": 4209.973003759524,
+        "ldl": 4809.350307010538
+      },
+      "complex_ldl_absolute_sum_bound": 6572.581846410363,
+      "centered_level0_nominal_magnitude_limit": 131072.00000002235,
+      "noise_margin_qualification": "exact-arithmetic message magnitude bounds only; does not certify worst-case cryptographic noise"
+    },
+    {
+      "model": "synthetic_d8h64seed20261020",
+      "quadratic_all_partial_sum_bound": 0.869140625,
+      "original_network_absolute_sum_bound": 6.82421875,
+      "packed_affine_squared_absolute_sum_bound": {
+        "spectral": 1.9093492793454159,
+        "ldl": 1.4484913183271748
+      },
+      "complex_ldl_absolute_sum_bound": 1.7638402014349222,
+      "centered_level0_nominal_magnitude_limit": 131072.00000002235,
+      "noise_margin_qualification": "exact-arithmetic message magnitude bounds only; does not certify worst-case cryptographic noise"
+    },
+    {
+      "model": "synthetic_d16h128seed20261021",
+      "quadratic_all_partial_sum_bound": 0.66973876953125,
+      "original_network_absolute_sum_bound": 6.83270263671875,
+      "packed_affine_squared_absolute_sum_bound": {
+        "spectral": 1.987863908776864,
+        "ldl": 4.365856359833972
+      },
+      "complex_ldl_absolute_sum_bound": 6.459731777879397,
+      "centered_level0_nominal_magnitude_limit": 131072.00000002235,
+      "noise_margin_qualification": "exact-arithmetic message magnitude bounds only; does not certify worst-case cryptographic noise"
+    },
+    {
+      "model": "synthetic_d32h128seed20261022",
+      "quadratic_all_partial_sum_bound": 0.614898681640625,
+      "original_network_absolute_sum_bound": 6.1912841796875,
+      "packed_affine_squared_absolute_sum_bound": {
+        "spectral": 2.357148166385846,
+        "ldl": 5.205131216457636
+      },
+      "complex_ldl_absolute_sum_bound": 6.415646654569813,
+      "centered_level0_nominal_magnitude_limit": 131072.00000002235,
+      "noise_margin_qualification": "exact-arithmetic message magnitude bounds only; does not certify worst-case cryptographic noise"
+    },
+    {
+      "model": "heldout_d8h96seed20261023",
+      "quadratic_all_partial_sum_bound": 0.9619140625,
+      "original_network_absolute_sum_bound": 11.1376953125,
+      "packed_affine_squared_absolute_sum_bound": {
+        "spectral": 1.9864509925399803,
+        "ldl": 2.148831342476811
+      },
+      "complex_ldl_absolute_sum_bound": 2.909467936048101,
+      "centered_level0_nominal_magnitude_limit": 131072.00000002235,
+      "noise_margin_qualification": "exact-arithmetic message magnitude bounds only; does not certify worst-case cryptographic noise"
+    },
+    {
+      "model": "heldout_d16h96seed20261024",
+      "quadratic_all_partial_sum_bound": 0.5902099609375,
+      "original_network_absolute_sum_bound": 4.988037109375,
+      "packed_affine_squared_absolute_sum_bound": {
+        "spectral": 1.7770128996891985,
+        "ldl": 2.360659496434803
+      },
+      "complex_ldl_absolute_sum_bound": 2.18684259436439,
+      "centered_level0_nominal_magnitude_limit": 131072.00000002235,
+      "noise_margin_qualification": "exact-arithmetic message magnitude bounds only; does not certify worst-case cryptographic noise"
+    },
+    {
+      "model": "spd_d16h64seed20261025",
+      "quadratic_all_partial_sum_bound": 0.6680908203125,
+      "original_network_absolute_sum_bound": 3.3167724609375,
+      "packed_affine_squared_absolute_sum_bound": {
+        "spectral": 2.8264768148791335,
+        "ldl": 0.8294695271167775
+      },
+      "complex_ldl_absolute_sum_bound": 0.75537109375,
+      "centered_level0_nominal_magnitude_limit": 131072.00000002235,
+      "noise_margin_qualification": "exact-arithmetic message magnitude bounds only; does not certify worst-case cryptographic noise"
+    }
+  ]
+}

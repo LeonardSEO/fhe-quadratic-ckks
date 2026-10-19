@@ -1,0 +1,293 @@
+{
+  "scope": "development models only, B128, M4, Standard CKKS; 5 independent processes and31 timed iterations each; measured total process RSS includes both client and server",
+  "profiles": [
+    {
+      "model": "synthetic_d8h64seed20261020",
+      "dimension": 8,
+      "batch": 128,
+      "method": "triangular_direct",
+      "candidate": false,
+      "server_seconds": 0.004572166,
+      "chain_seconds": 0.006409167,
+      "setup_seconds": 0.037273418,
+      "public_frontend_seconds": 0.0007677920075366274,
+      "peak_rss_bytes": 124239872,
+      "peak_rss_range_bytes": [
+        124076032,
+        125648896
+      ],
+      "evaluation_key_bytes": 12585902,
+      "encoded_transform_bytes": 2097536,
+      "plaintext_multiplications": 8,
+      "rotations": 10,
+      "rotation_keys": 7,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.006431708,
+        0.006409167,
+        0.006325125,
+        0.006227709,
+        0.006423417
+      ],
+      "loopback_key_rtt_seconds": 0.007858708,
+      "warmup_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d8h64seed20261020",
+      "dimension": 8,
+      "batch": 128,
+      "method": "oriented_direct",
+      "candidate": true,
+      "server_seconds": 0.004008791,
+      "chain_seconds": 0.00581525,
+      "setup_seconds": 0.026557292000000003,
+      "public_frontend_seconds": 0.0007677920075366274,
+      "peak_rss_bytes": 95010816,
+      "peak_rss_range_bytes": [
+        93716480,
+        95076352
+      ],
+      "evaluation_key_bytes": 7866182,
+      "encoded_transform_bytes": 1310960,
+      "plaintext_multiplications": 5,
+      "rotations": 7,
+      "rotation_keys": 4,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.005773208,
+        0.00593175,
+        0.005754667,
+        0.00591525,
+        0.00581525
+      ],
+      "loopback_key_rtt_seconds": 0.005048416,
+      "warmup_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d8h64seed20261020",
+      "dimension": 8,
+      "batch": 128,
+      "method": "oriented_bsgs3",
+      "candidate": true,
+      "server_seconds": 0.0049155,
+      "chain_seconds": 0.006848,
+      "setup_seconds": 0.027449917,
+      "public_frontend_seconds": 0.0007677920075366274,
+      "peak_rss_bytes": 84787200,
+      "peak_rss_range_bytes": [
+        84770816,
+        85868544
+      ],
+      "evaluation_key_bytes": 7866182,
+      "encoded_transform_bytes": 1310960,
+      "plaintext_multiplications": 5,
+      "rotations": 7,
+      "rotation_keys": 4,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.006964625,
+        0.00675025,
+        0.006782208,
+        0.006848,
+        0.006866292
+      ],
+      "loopback_key_rtt_seconds": 0.004858667,
+      "warmup_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d16h128seed20261021",
+      "dimension": 16,
+      "batch": 128,
+      "method": "triangular_direct",
+      "candidate": false,
+      "server_seconds": 0.006363083,
+      "chain_seconds": 0.00827675,
+      "setup_seconds": 0.068781626,
+      "public_frontend_seconds": 0.004296166996937245,
+      "peak_rss_bytes": 190496768,
+      "peak_rss_range_bytes": [
+        176226304,
+        195510272
+      ],
+      "evaluation_key_bytes": 25171822,
+      "encoded_transform_bytes": 4195072,
+      "plaintext_multiplications": 16,
+      "rotations": 19,
+      "rotation_keys": 15,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.008220459,
+        0.008241667,
+        0.008403333,
+        0.00828375,
+        0.00827675
+      ],
+      "loopback_key_rtt_seconds": 0.016907541,
+      "warmup_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d16h128seed20261021",
+      "dimension": 16,
+      "batch": 128,
+      "method": "oriented_direct",
+      "candidate": true,
+      "server_seconds": 0.00502,
+      "chain_seconds": 0.006842292,
+      "setup_seconds": 0.042550832999999996,
+      "public_frontend_seconds": 0.004296166996937245,
+      "peak_rss_bytes": 131022848,
+      "peak_rss_range_bytes": [
+        117309440,
+        131989504
+      ],
+      "evaluation_key_bytes": 14159142,
+      "encoded_transform_bytes": 2359728,
+      "plaintext_multiplications": 9,
+      "rotations": 12,
+      "rotation_keys": 8,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.006842292,
+        0.006823667,
+        0.006838625,
+        0.007309084,
+        0.006853167
+      ],
+      "loopback_key_rtt_seconds": 0.009087083,
+      "warmup_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d16h128seed20261021",
+      "dimension": 16,
+      "batch": 128,
+      "method": "oriented_bsgs3",
+      "candidate": true,
+      "server_seconds": 0.006033166,
+      "chain_seconds": 0.007872708,
+      "setup_seconds": 0.042664499999999994,
+      "public_frontend_seconds": 0.004296166996937245,
+      "peak_rss_bytes": 118767616,
+      "peak_rss_range_bytes": [
+        117669888,
+        120782848
+      ],
+      "evaluation_key_bytes": 14159142,
+      "encoded_transform_bytes": 2359728,
+      "plaintext_multiplications": 9,
+      "rotations": 12,
+      "rotation_keys": 8,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.007823583,
+        0.00789625,
+        0.007803083,
+        0.007957958,
+        0.007872708
+      ],
+      "loopback_key_rtt_seconds": 0.009078375,
+      "warmup_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d32h128seed20261022",
+      "dimension": 32,
+      "batch": 128,
+      "method": "symmetric_bsgs3",
+      "candidate": false,
+      "server_seconds": 0.008951375,
+      "chain_seconds": 0.010928792,
+      "setup_seconds": 0.06498095700000002,
+      "public_frontend_seconds": 0.017083915998227894,
+      "peak_rss_bytes": 151257088,
+      "peak_rss_range_bytes": [
+        151044096,
+        151388160
+      ],
+      "evaluation_key_bytes": 17305622,
+      "encoded_transform_bytes": 8390144,
+      "plaintext_multiplications": 32,
+      "rotations": 15,
+      "rotation_keys": 10,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.010953792,
+        0.010857167,
+        0.010928792,
+        0.010900166,
+        0.0109375
+      ],
+      "loopback_key_rtt_seconds": 0.01193825,
+      "warmup_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d32h128seed20261022",
+      "dimension": 32,
+      "batch": 128,
+      "method": "oriented_direct",
+      "candidate": true,
+      "server_seconds": 0.006834459,
+      "chain_seconds": 0.0087755,
+      "setup_seconds": 0.07929029100000001,
+      "public_frontend_seconds": 0.017083915998227894,
+      "peak_rss_bytes": 204636160,
+      "peak_rss_range_bytes": [
+        202948608,
+        205176832
+      ],
+      "evaluation_key_bytes": 26745062,
+      "encoded_transform_bytes": 4457264,
+      "plaintext_multiplications": 17,
+      "rotations": 21,
+      "rotation_keys": 16,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.008666541,
+        0.008732542,
+        0.0087755,
+        0.008790417,
+        0.008884458
+      ],
+      "loopback_key_rtt_seconds": 0.021564333,
+      "warmup_included_in_setup": true
+    },
+    {
+      "model": "synthetic_d32h128seed20261022",
+      "dimension": 32,
+      "batch": 128,
+      "method": "oriented_bsgs3",
+      "candidate": true,
+      "server_seconds": 0.00764125,
+      "chain_seconds": 0.009566333,
+      "setup_seconds": 0.051889415999999994,
+      "public_frontend_seconds": 0.017083915998227894,
+      "peak_rss_bytes": 135921664,
+      "peak_rss_range_bytes": [
+        131432448,
+        145965056
+      ],
+      "evaluation_key_bytes": 15732382,
+      "encoded_transform_bytes": 4457264,
+      "plaintext_multiplications": 17,
+      "rotations": 14,
+      "rotation_keys": 9,
+      "input_bytes": 393566,
+      "output_bytes": 131390,
+      "process_chain_seconds": [
+        0.009557083,
+        0.009456958,
+        0.009627417,
+        0.009566333,
+        0.010177416
+      ],
+      "loopback_key_rtt_seconds": 0.009578416,
+      "warmup_included_in_setup": true
+    }
+  ]
+}

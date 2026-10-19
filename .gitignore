@@ -1,0 +1,23 @@
+# Local tooling and build caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.plotenv/
+lean/.lake/
+lean/build/
+bench/fhe-bench
+bench/encrypted-quadratic-research
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+!artifacts/**/*.log
+# Complete public ciphertext/key evidence is distributed as a Zenodo supplement.
+*.ct
+*.bin
+artifacts/reruns/
+dist/
+bench/fhebench

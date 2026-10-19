@@ -1,0 +1,40 @@
+{
+  "frozen_before_final_v2": "2026-10-19T08:43:38.427383+00:00",
+  "fixed_model_sha256": "985f69a2c3fe52bc6a565a6b21f11c7fdf2494850083ae8cecd477c63d0df7c3",
+  "batch": 128,
+  "repeats": 9,
+  "baselines": [
+    "symmetric_Q",
+    "triangular_Q",
+    "spectral_affine_squares",
+    "LDL_affine_squares",
+    "original_network_shared_hoisting",
+    "feature_triangular_Q",
+    "feature_real_LDL",
+    "feature_complex_LDL",
+    "CI_same_batch"
+  ],
+  "BSGS_ratios": [
+    -1,
+    0,
+    1,
+    2,
+    3
+  ],
+  "candidate": "cyclic_oriented_Q",
+  "quality_abs": 0.001,
+  "parameters": {
+    "LogN": 13,
+    "LogQ": [
+      58,
+      40,
+      40
+    ],
+    "LogP": [
+      60
+    ],
+    "LogDefaultScale": 40
+  },
+  "confirmation": "fresh-process alternating candidate/baseline order,31 repeats, RSS",
+  "transport_confirmation": "real loopback HTTP encrypted request/response and evaluation-key distribution"
+}

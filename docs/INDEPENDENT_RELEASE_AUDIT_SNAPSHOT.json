@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-19",
+  "reviewer": "independent Codex agent within the release task; not external peer review",
+  "sha256": {
+    "bench/packed.go": "a1673fe8909858e48377c668fd5f672220230ca8f74236887aa590f7583f3019",
+    "bench/server_process.go": "8ba09af9675e3ea7b327e231d5567177fc7158e7f342038fd8c2d49b78b61d43",
+    "bench/transport.go": "15b4349ba6382bfa5dbc9990b2a3d6898b729a568125b16c3054bd99e9e7d4ae",
+    "bench/main.go": "563a458f53573bce799410d4a84d8a681d94caaa52bc3f8e0d0a0b01d3657c2a",
+    "bench/go.mod": "85bff7f5ea53d0d9f6fed9cf7359247e51b5f9958374bbd3740aa374b40ec46d",
+    "bench/go.sum": "ba0b56d4f4d13fd01648402ad271b0c27a6722830ca2f652fcd94e4cfdcb508d",
+    "scalar_compiler.py": "a9fe50c537ea8a1d8f8973fd82b36d32e4167af8022f2372cf63a02bc4ed8236",
+    "scripts/verify_evidence.py": "ff261aab356d9e13e511113fc9f898f7acca5c8f12ae015b4e3c1d46683fdd97",
+    "scripts/check_correspondence.py": "832e5671e041de9207e1387434679e57d79415240a70e49015d52e59a065d956",
+    "scripts/generate_paper_data.py": "a6710ebadd65f86e0827e2333f72a727bc9d499cf206db69469d3497dc9a2e9d",
+    "artifacts/models.json": "985f69a2c3fe52bc6a565a6b21f11c7fdf2494850083ae8cecd477c63d0df7c3",
+    "artifacts/separated_confirmation_final/records.json": "80b6fd7057f2dd5d65cd9db52f337a15ccb1c0c2db6e12b668af74247710fcb2",
+    "generated/paper_data.json": "59dcf8f363f25572d44150bc119b33c1567af9513549efdb96aba0c9372e39d8"
+  }
+}

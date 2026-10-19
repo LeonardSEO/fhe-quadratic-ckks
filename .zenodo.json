@@ -1,0 +1,20 @@
+{
+  "title": "Terminal-Scalar-Aware Compilation of Quadratic Scores for CKKS",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "van Hemert, Leonard"
+    }
+  ],
+  "description": "Research artifact for a terminal-scalar-aware cyclic-orientation compiler pass for public quadratic scores in CKKS. Includes paper, implementation, frozen encrypted execution evidence, and a Lean 4 project. Restricted support optimality is distinct from ciphertext-circuit or runtime optimality. Code and Lean: MIT. Paper and data: CC BY 4.0. See LICENSES/README.md for scope.",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "keywords": [
+    "fully homomorphic encryption",
+    "CKKS",
+    "quadratic forms",
+    "compiler optimization",
+    "Lean 4"
+  ]
+}

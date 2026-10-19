@@ -1,0 +1,296 @@
+[
+  {
+    "module": "github.com/ALTree/bigfloat",
+    "version": "v0.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/!a!l!tree/bigfloat/@v/v0.2.0.info",
+    "sha256": "b03afccbaea4ca841198548ab1d52843a3f785aa5c7eb8245a231a88318ed44b"
+  },
+  {
+    "module": "github.com/ALTree/bigfloat",
+    "version": "v0.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/!a!l!tree/bigfloat/@v/v0.2.0.mod",
+    "sha256": "dd676eec9c8e2c01ad312ab4336da5add47a58a3446a69673b361aab2e6de7cc"
+  },
+  {
+    "module": "github.com/ALTree/bigfloat",
+    "version": "v0.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/!a!l!tree/bigfloat/@v/v0.2.0.zip",
+    "sha256": "0042283c25d66dddb0d2d940a3790c7aeebadbeb11df35932e478c2492e6fcd9"
+  },
+  {
+    "module": "github.com/creack/pty",
+    "version": "v1.1.9",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/creack/pty/@v/v1.1.9.mod",
+    "sha256": "eab0705bc4a18dd315c27a4e3dba8f20a9e123065fa20633966332b5cccf7731"
+  },
+  {
+    "module": "github.com/davecgh/go-spew",
+    "version": "v1.1.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.1.info",
+    "sha256": "73de263267a4545708302d807be60fdb649c5c7b981d25302a638145fba0ec47"
+  },
+  {
+    "module": "github.com/davecgh/go-spew",
+    "version": "v1.1.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.1.mod",
+    "sha256": "bcb29393251237b79a17b6c19bf29134f43e8f438c3198988fcd461a1cdf05cc"
+  },
+  {
+    "module": "github.com/davecgh/go-spew",
+    "version": "v1.1.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/davecgh/go-spew/@v/v1.1.1.zip",
+    "sha256": "6b44a843951f371b7010c754ecc3cabefe815d5ced1c5b9409fb2d697e8a890d"
+  },
+  {
+    "module": "github.com/google/go-cmp",
+    "version": "v0.7.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/google/go-cmp/@v/v0.7.0.info",
+    "sha256": "635bbe64cceaad0e5bbd897a78cac24ca184ea8c91394443cc30ee35be33f649"
+  },
+  {
+    "module": "github.com/google/go-cmp",
+    "version": "v0.7.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/google/go-cmp/@v/v0.7.0.mod",
+    "sha256": "31c874a1d2a18e62b0550f823ce7a575c8dec7f8fd9d4fa1959bb12d7f7c0f14"
+  },
+  {
+    "module": "github.com/google/go-cmp",
+    "version": "v0.7.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/google/go-cmp/@v/v0.7.0.zip",
+    "sha256": "64a9ce046f2c320e3783fba0d1f4a15f8a18f0b009b67bf27f7630919db3f539"
+  },
+  {
+    "module": "github.com/kr/pretty",
+    "version": "v0.2.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/pretty/@v/v0.2.1.mod",
+    "sha256": "c2ae28bd5bb8e8f9076955126768ab7a147952deea9fdbcb373c53cc18870f82"
+  },
+  {
+    "module": "github.com/kr/pretty",
+    "version": "v0.3.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/pretty/@v/v0.3.1.info",
+    "sha256": "8985c5adc09968b25ac3bc455e4dcd6fd9697f3bd4472b2b4d7a6d478ab39583"
+  },
+  {
+    "module": "github.com/kr/pretty",
+    "version": "v0.3.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/pretty/@v/v0.3.1.mod",
+    "sha256": "84f3e40803b1ebd4a802e55794b9997df0b173c4809e8572ff9042ec558ca1bc"
+  },
+  {
+    "module": "github.com/kr/pretty",
+    "version": "v0.3.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/pretty/@v/v0.3.1.zip",
+    "sha256": "ecf5a4af24826c3ad758ce06410ca08e2d58e4d95053be3b9dde2e14852c0cdc"
+  },
+  {
+    "module": "github.com/kr/pty",
+    "version": "v1.1.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/pty/@v/v1.1.1.mod",
+    "sha256": "6da4c9c7364446894e5ef877e19f985cd51d671ce6e8f4ca87862b449f6dd7f6"
+  },
+  {
+    "module": "github.com/kr/text",
+    "version": "v0.1.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/text/@v/v0.1.0.mod",
+    "sha256": "2fba9529e5c13dde62f371ef7383baf04d7132501dac6aa08e910f9ec0bf85c5"
+  },
+  {
+    "module": "github.com/kr/text",
+    "version": "v0.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/text/@v/v0.2.0.info",
+    "sha256": "08b7c0e616c83fc4f9a82cbb4fb22fc14e198ce67c28704a7ce297fbe89fab99"
+  },
+  {
+    "module": "github.com/kr/text",
+    "version": "v0.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/text/@v/v0.2.0.mod",
+    "sha256": "f63879b204f6ce895cea53594b814f5ac0af08486b33b1ca79c657384efbc726"
+  },
+  {
+    "module": "github.com/kr/text",
+    "version": "v0.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/kr/text/@v/v0.2.0.zip",
+    "sha256": "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+  },
+  {
+    "module": "github.com/pkg/diff",
+    "version": "v0.0.0-20210226163009-20ebb0f2a09e",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/pkg/diff/@v/v0.0.0-20210226163009-20ebb0f2a09e.mod",
+    "sha256": "5d5b9454e2d020af0c7603568e86904b99befc4d5d67c3a8505f6121589bd11f"
+  },
+  {
+    "module": "github.com/pmezard/go-difflib",
+    "version": "v1.0.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/v1.0.0.info",
+    "sha256": "97cbb0239d80e5221efd1f0aa645d120272bd3ee7975bd654f07a8ed0c2c2adc"
+  },
+  {
+    "module": "github.com/pmezard/go-difflib",
+    "version": "v1.0.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/v1.0.0.mod",
+    "sha256": "74b2e766eb215377864d587badf57e95521f692d2a7860b3c7759093f9c9bec2"
+  },
+  {
+    "module": "github.com/pmezard/go-difflib",
+    "version": "v1.0.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/pmezard/go-difflib/@v/v1.0.0.zip",
+    "sha256": "de04cecc1a4b8d53e4357051026794bcbc54f2e6a260cfac508ce69d5d6457a0"
+  },
+  {
+    "module": "github.com/rogpeppe/go-internal",
+    "version": "v1.14.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/rogpeppe/go-internal/@v/v1.14.1.info",
+    "sha256": "8932c27f46c77dc0b40a26dcca5a71677b3f47082d8c4c3a9ca68df8c7cec5fe"
+  },
+  {
+    "module": "github.com/rogpeppe/go-internal",
+    "version": "v1.14.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/rogpeppe/go-internal/@v/v1.14.1.mod",
+    "sha256": "5146850223a460d7bfb5e3e4caf323337f745903e829c96083bd2c9a722caf8d"
+  },
+  {
+    "module": "github.com/rogpeppe/go-internal",
+    "version": "v1.14.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/rogpeppe/go-internal/@v/v1.14.1.zip",
+    "sha256": "ab3d18283cef2f46ddfd489b6b14b970eb7dbbb642786f025ee1ac5291dc4e70"
+  },
+  {
+    "module": "github.com/rogpeppe/go-internal",
+    "version": "v1.9.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/rogpeppe/go-internal/@v/v1.9.0.mod",
+    "sha256": "9059a97da2990c819a09767a5e9bd8784b45a57b7a25e29055bbd1b0aaa144ff"
+  },
+  {
+    "module": "github.com/stretchr/testify",
+    "version": "v1.10.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.10.0.info",
+    "sha256": "28c0b78d7acbcfaece7c4dd3dcc2c11e33c698871c4883e5a5b5c0899004293b"
+  },
+  {
+    "module": "github.com/stretchr/testify",
+    "version": "v1.10.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.10.0.mod",
+    "sha256": "c0a648a037da54a6b02e8a811b1d3917d49dc4e1841cd756f28f0c4f1593933c"
+  },
+  {
+    "module": "github.com/stretchr/testify",
+    "version": "v1.10.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/stretchr/testify/@v/v1.10.0.zip",
+    "sha256": "36c87573527a97ce97fc15ce2a101e65e5ebb350db142d09f633580cb8d5c839"
+  },
+  {
+    "module": "github.com/tuneinsight/lattigo/v6",
+    "version": "v6.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/tuneinsight/lattigo/v6/@v/v6.2.0.info",
+    "sha256": "c2257f9f76cd6c43079af5f7f48374049928c1742369da76d9b914c7e14461d0"
+  },
+  {
+    "module": "github.com/tuneinsight/lattigo/v6",
+    "version": "v6.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/tuneinsight/lattigo/v6/@v/v6.2.0.mod",
+    "sha256": "4b5c35d563843c643634f86343a6beba8ba40e3c961a80aabbc3caa56c7a2681"
+  },
+  {
+    "module": "github.com/tuneinsight/lattigo/v6",
+    "version": "v6.2.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/github.com/tuneinsight/lattigo/v6/@v/v6.2.0.zip",
+    "sha256": "0177c771f81bacee0f8e65b2667b84f9237fda02defe230c128ecc601e33b4b2"
+  },
+  {
+    "module": "golang.org/x/crypto",
+    "version": "v0.45.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.45.0.info",
+    "sha256": "d169a8a622c096c362a243da61b57cc19ad2bf0144c84404cdf7bde7369596ec"
+  },
+  {
+    "module": "golang.org/x/crypto",
+    "version": "v0.45.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.45.0.mod",
+    "sha256": "6eee774fe69c286329ac0ae96c550a53f62dc1ad320b34d2b72e89e7f72c28a9"
+  },
+  {
+    "module": "golang.org/x/crypto",
+    "version": "v0.45.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/crypto/@v/v0.45.0.zip",
+    "sha256": "416335b9102df16747b29fe58d034d6d9fb70af314740136fb0a37ae8c568705"
+  },
+  {
+    "module": "golang.org/x/exp",
+    "version": "v0.0.0-20250506013437-ce4c2cf36ca6",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/exp/@v/v0.0.0-20250506013437-ce4c2cf36ca6.info",
+    "sha256": "20e0451df49ad1dd036e69eb59af2660b93f0578b41ec1377631bbf47952df32"
+  },
+  {
+    "module": "golang.org/x/exp",
+    "version": "v0.0.0-20250506013437-ce4c2cf36ca6",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/exp/@v/v0.0.0-20250506013437-ce4c2cf36ca6.mod",
+    "sha256": "9c38a23b0c01c1992db5b684c7c7c64c00cdb4216469d4343d3022f07f8eb69e"
+  },
+  {
+    "module": "golang.org/x/exp",
+    "version": "v0.0.0-20250506013437-ce4c2cf36ca6",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/exp/@v/v0.0.0-20250506013437-ce4c2cf36ca6.zip",
+    "sha256": "9e9288e39511014e46fc6efef3818fb1f42dba19d3d614af09e1e7823533f897"
+  },
+  {
+    "module": "golang.org/x/sys",
+    "version": "v0.38.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.38.0.info",
+    "sha256": "bcdcfb9af95382ec461792e0188fe0df61e2ccf50af6041d0884cc49622f5c64"
+  },
+  {
+    "module": "golang.org/x/sys",
+    "version": "v0.38.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.38.0.mod",
+    "sha256": "f411814d83a96e86781b1dee41c125b9504da5422dba37cc1d63b016ae39cfe2"
+  },
+  {
+    "module": "golang.org/x/sys",
+    "version": "v0.38.0",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/golang.org/x/sys/@v/v0.38.0.zip",
+    "sha256": "dacd7c9aa2b298f966822da214c6d601da08f14d41b29032bcac4bc503887a49"
+  },
+  {
+    "module": "gopkg.in/check.v1",
+    "version": "v0.0.0-20161208181325-20d25e280405",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/v0.0.0-20161208181325-20d25e280405.mod",
+    "sha256": "5c306e0d633cd66a11b40e2e5fbbc6da42110db7d72ea3c1524ceb45ee40c33f"
+  },
+  {
+    "module": "gopkg.in/check.v1",
+    "version": "v1.0.0-20201130134442-10cb98267c6c",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.info",
+    "sha256": "9c410ddc8753b257045f2d6a25835f73a37ec16e58d2dec05af7f89b501c98ee"
+  },
+  {
+    "module": "gopkg.in/check.v1",
+    "version": "v1.0.0-20201130134442-10cb98267c6c",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.mod",
+    "sha256": "6e6e2fca40eb8fe1455e6a08cd39833c7c2e9a2341a81fb181b89d0b1c725f48"
+  },
+  {
+    "module": "gopkg.in/check.v1",
+    "version": "v1.0.0-20201130134442-10cb98267c6c",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/gopkg.in/check.v1/@v/v1.0.0-20201130134442-10cb98267c6c.zip",
+    "sha256": "f555684e5c5dacc2850dddb345fef1b8f93f546b72685589789da6d2b062710e"
+  },
+  {
+    "module": "gopkg.in/yaml.v3",
+    "version": "v3.0.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/gopkg.in/yaml.v3/@v/v3.0.1.info",
+    "sha256": "0cdb0c9ac8c3b25dbd420a86ab27debfa469a8b48ee10560224704c2852ac6c0"
+  },
+  {
+    "module": "gopkg.in/yaml.v3",
+    "version": "v3.0.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/gopkg.in/yaml.v3/@v/v3.0.1.mod",
+    "sha256": "21579860a20306fcf43b1bd234d1fba319499c77611b71c05f9bf3ba90dab939"
+  },
+  {
+    "module": "gopkg.in/yaml.v3",
+    "version": "v3.0.1",
+    "file": "/Users/leonard/go/pkg/mod/cache/download/gopkg.in/yaml.v3/@v/v3.0.1.zip",
+    "sha256": "aab8fbc4e6300ea08e6afe1caea18a21c90c79f489f52c53e2f20431f1a9a015"
+  }
+]

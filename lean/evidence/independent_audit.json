@@ -1,0 +1,49 @@
+{
+  "source_sha256": {
+    "FHEQuadratic.lean": "a79aaf5ce8652d5588ca6a55d446128275f52e53245dd66b9ee1c4879ef1689d",
+    "FHEQuadratic/Axioms.lean": "50b4aee88c9c2234472aad2df1eafd5bb1e0259a506bdf3f51a514178359eb68",
+    "FHEQuadratic/Definitions.lean": "ada592d7890b53aa2d0b86ffd678b13a1b0444b481ba156b4eb97ed70d3ed6c2",
+    "FHEQuadratic/LowerBound.lean": "93fd775807a77c17f7c06bea4f808800fbc3826663ad17c61a4d74a55c3caa1a",
+    "FHEQuadratic/Orientation.lean": "cade655912a6acb35c3e16a18acdbafa9ad5d08c5ac48388c575ff9fc8daa639",
+    "FHEQuadratic/Preservation.lean": "ca7a2dee0f21f3689450f18b6c32027e48a2bcfc6d4e0d40f1fa2f9208ded705",
+    "lakefile.toml": "fab7de322f8b3c876e1a409a884c4704538e839233550dfd65c682d12de28e01",
+    "lake-manifest.json": "faa7969b71a7bd21d69d762f85144d39b4a97493ae68c5dc901c3bd599822af9",
+    "lean-toolchain": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434",
+    "check_axioms.py": "99ba347655a5de236135bd061eca6f93e0c97848504ea5f54b7e8df8743d7a76"
+  },
+  "checks": [
+    {
+      "command": [
+        "lake",
+        "build"
+      ],
+      "started_utc": "2026-10-19T12:02:27.845556+00:00",
+      "exit_code": 0,
+      "log": "independent_build.log"
+    },
+    {
+      "command": [
+        "python3",
+        "check_axioms.py"
+      ],
+      "started_utc": "2026-10-19T12:02:53.476501+00:00",
+      "exit_code": 0,
+      "log": "independent_axioms.log"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "evidence/InspectTypes.lean"
+      ],
+      "exit_code": 0,
+      "log": "independent_types.log"
+    }
+  ],
+  "source_unchanged": true,
+  "extra_evidence_sha256": {
+    "evidence/InspectTypes.lean": "368ca6b3a5a5e9229a3b00968870bb2d283c2d98124b1cdb5d8a16f23f677e19",
+    "evidence/independent_types.log": "506b0dfc7d820d7fdd710a0d282197e427d5f4f553aa0be44146ae098cb15ceb"
+  }
+}

@@ -1,0 +1,2 @@
+packed synthetic_d16h128seed20261021 triangular_direct d=16 batch=128 server=0.009440s chain=0.012258s error=4.24e-08 keys=15
+wrote /Users/leonard/Downloads/onderzoek_drie_problemen/fhe_research/artifacts/separated_confirmation_final/synthetic_d16h128seed20261021/round0/triangular_direct/aggregate.json

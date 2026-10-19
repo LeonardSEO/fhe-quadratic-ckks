@@ -1,0 +1,2 @@
+packed synthetic_d32h128seed20261022 symmetric_bsgs3 d=32 batch=128 server=0.016174s chain=0.020053s error=7.34e-08 keys=10
+wrote /Users/leonard/Downloads/onderzoek_drie_problemen/fhe_research/artifacts/separated_confirmation_final/synthetic_d32h128seed20261022/round2/symmetric_bsgs3/aggregate.json

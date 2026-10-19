@@ -1,0 +1,134 @@
+{
+  "checked_at_utc": "2026-10-19T11:07:45.399839+00:00",
+  "final_records": 45,
+  "repeats_per_process": 31,
+  "distinct_client_pids": 45,
+  "distinct_server_pids": 45,
+  "unique_evaluation_keys": 45,
+  "stable_public_config_groups": 9,
+  "max_reported_all_lane_error": 7.344477873788557e-08,
+  "max_independently_recomputed_original_network_error_first_block": 4.9407439531995445e-08,
+  "comparisons": {
+    "synthetic_d8h64seed20261020": {
+      "baseline": "triangular_direct",
+      "baseline_server_rss_median_bytes": 86982656,
+      "oriented_direct": {
+        "server_rss_median_bytes": 65765376,
+        "paired_server_rss_reductions": [
+          0.17066115702479334,
+          0.24793698424606148,
+          0.24505556601996614,
+          0.19917012448132776,
+          0.22845879481884734
+        ],
+        "median_paired_server_rss_reduction": 0.22845879481884734,
+        "server_rss_wins": 5,
+        "median_paired_HTTP_chain_ratio": 1.0860044934910793,
+        "HTTP_chain_wins": 5
+      },
+      "oriented_bsgs3": {
+        "server_rss_median_bytes": 59785216,
+        "paired_server_rss_reductions": [
+          0.2559917355371901,
+          0.2925731432858214,
+          0.2949708042945941,
+          0.3048804584074294,
+          0.31499906138539513
+        ],
+        "median_paired_server_rss_reduction": 0.2949708042945941,
+        "server_rss_wins": 5,
+        "median_paired_HTTP_chain_ratio": 0.9491949299700827,
+        "HTTP_chain_wins": 2
+      }
+    },
+    "synthetic_d16h128seed20261021": {
+      "baseline": "triangular_direct",
+      "baseline_server_rss_median_bytes": 127221760,
+      "oriented_direct": {
+        "server_rss_median_bytes": 90357760,
+        "paired_server_rss_reductions": [
+          0.2971867007672634,
+          0.2891178364455892,
+          0.28390269151138714,
+          0.2884789059476197,
+          0.2941100988066213
+        ],
+        "median_paired_server_rss_reduction": 0.2891178364455892,
+        "server_rss_wins": 5,
+        "median_paired_HTTP_chain_ratio": 1.2065206347560247,
+        "HTTP_chain_wins": 5
+      },
+      "oriented_bsgs3": {
+        "server_rss_median_bytes": 82493440,
+        "paired_server_rss_reductions": [
+          0.3629156010230179,
+          0.3359948486799742,
+          0.3484730848861284,
+          0.3351825570894078,
+          0.3790581290902092
+        ],
+        "median_paired_server_rss_reduction": 0.3484730848861284,
+        "server_rss_wins": 5,
+        "median_paired_HTTP_chain_ratio": 1.0438545599349145,
+        "HTTP_chain_wins": 4
+      }
+    },
+    "synthetic_d32h128seed20261022": {
+      "baseline": "symmetric_bsgs3",
+      "baseline_server_rss_median_bytes": 105431040,
+      "oriented_direct": {
+        "server_rss_median_bytes": 135086080,
+        "paired_server_rss_reductions": [
+          -0.3295765577201739,
+          -0.2823565795577547,
+          -0.2442510876320696,
+          -0.2749028749028748,
+          -0.3158314714331312
+        ],
+        "median_paired_server_rss_reduction": -0.2823565795577547,
+        "server_rss_wins": 0,
+        "median_paired_HTTP_chain_ratio": 1.2253632245892498,
+        "HTTP_chain_wins": 5
+      },
+      "oriented_bsgs3": {
+        "server_rss_median_bytes": 85983232,
+        "paired_server_rss_reductions": [
+          0.15311544034777014,
+          0.18849543837946503,
+          0.18676196395276567,
+          0.18508158508158512,
+          0.15943185445260133
+        ],
+        "median_paired_server_rss_reduction": 0.18508158508158512,
+        "server_rss_wins": 5,
+        "median_paired_HTTP_chain_ratio": 1.1477001055359721,
+        "HTTP_chain_wins": 5
+      }
+    }
+  },
+  "all_checks_passed": true,
+  "issues": [],
+  "memory_scope": "Only server_process.exit_peak_rss_bytes from explicit child ProcessState.SysUsage Rusage.Maxrss is used for server-only comparisons. /usr/bin/time report is OS process-tree resource telemetry, neither isolated-client RSS nor simultaneous summed RSS.",
+  "artifact_sha256": {
+    "artifacts/separated_confirmation_final/records.json": "80b6fd7057f2dd5d65cd9db52f337a15ccb1c0c2db6e12b668af74247710fcb2"
+  },
+  "source_sha256": {
+    "bench/server_process.go": "8ba09af9675e3ea7b327e231d5567177fc7158e7f342038fd8c2d49b78b61d43",
+    "bench/transport.go": "15b4349ba6382bfa5dbc9990b2a3d6898b729a568125b16c3054bd99e9e7d4ae",
+    "bench/packed.go": "a1673fe8909858e48377c668fd5f672220230ca8f74236887aa590f7583f3019",
+    "bench/main.go": "563a458f53573bce799410d4a84d8a681d94caaa52bc3f8e0d0a0b01d3657c2a"
+  },
+  "binary_sha256": "ac0b2f5c708b58a03b20fb00410eed95f4fd60307b7f28c19bcf62487b2f8b66",
+  "pre_label_correction_artifact_sha256": {
+    "artifacts/separated_confirmation_final/records.json": "b8cd0684906093d9ab7381755df88d168328bb5d09e7239eb9d05f2b29c24176"
+  },
+  "resource_scope_label_recheck": {
+    "checked_at_utc": "2026-10-19T11:10:39.970390+00:00",
+    "record_count": 45,
+    "verified_scope_labels": [
+      "OS time resource report for process tree; not isolated client RSS or simultaneous sum. Isolated server peak is server_process.exit_peak_rss_bytes."
+    ],
+    "nested_runs_unchanged_and_match_standalone_files": true,
+    "change_scope": "Clerical resource-scope label; isolated-server comparisons continue to use explicit child exit rusage."
+  }
+}

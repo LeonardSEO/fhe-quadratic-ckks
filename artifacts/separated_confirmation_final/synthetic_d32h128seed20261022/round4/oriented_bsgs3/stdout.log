@@ -1,0 +1,2 @@
+packed synthetic_d32h128seed20261022 oriented_bsgs3 d=32 batch=128 server=0.012883s chain=0.016004s error=6.34e-08 keys=9
+wrote /Users/leonard/Downloads/onderzoek_drie_problemen/fhe_research/artifacts/separated_confirmation_final/synthetic_d32h128seed20261022/round4/oriented_bsgs3/aggregate.json

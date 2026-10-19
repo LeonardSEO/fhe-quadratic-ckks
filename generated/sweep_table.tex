@@ -1,0 +1,13 @@
+\begin{tabular}{llrrr}
+\toprule
+Model & Baseline & Base ms & Cand. ms & Speedup \\
+\midrule
+Archive 8/64 & packed/triangular\_direct & 6.370 & 5.836 & 1.091 \\
+Development 8/64 & packed/triangular\_direct & 6.310 & 5.704 & 1.106 \\
+Development 16/128 & packed/triangular\_direct & 7.844 & 6.813 & 1.151 \\
+Development 32/128 & packed/symmetric\_bsgs3 & 10.621 & 8.460 & 1.255 \\
+Held-out 8/96 & packed/symmetric\_direct & 6.130 & 5.652 & 1.085 \\
+Held-out 16/96 & packed/symmetric\_bsgs3 & 9.303 & 8.084 & 1.151 \\
+SPD 16/64 & packed/symmetric\_bsgs3 & 8.823 & 8.311 & 1.062 \\
+\bottomrule
+\end{tabular}

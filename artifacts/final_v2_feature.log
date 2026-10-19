@@ -1,0 +1,22 @@
+feature archive8h64 triangular_direct_q d=8 batch=128 server=0.007397s chain=0.021571s error=3.62e-06
+feature archive8h64 real_signed_ldl d=8 batch=128 server=0.008299s chain=0.026040s error=3.41e-06
+feature archive8h64 complex_paired_ldl d=8 batch=128 server=0.006071s chain=0.020705s error=7.43e-06
+feature synthetic_d8h64seed20261020 triangular_direct_q d=8 batch=128 server=0.007369s chain=0.022646s error=2.13e-08
+feature synthetic_d8h64seed20261020 real_signed_ldl d=8 batch=128 server=0.007806s chain=0.022985s error=1.27e-08
+feature synthetic_d8h64seed20261020 complex_paired_ldl d=8 batch=128 server=0.007169s chain=0.021955s error=1.22e-08
+feature synthetic_d16h128seed20261021 triangular_direct_q d=16 batch=128 server=0.017487s chain=0.045858s error=3.26e-08
+feature synthetic_d16h128seed20261021 real_signed_ldl d=16 batch=128 server=0.016837s chain=0.044547s error=1.99e-08
+feature synthetic_d16h128seed20261021 complex_paired_ldl d=16 batch=128 server=0.009566s chain=0.036237s error=1.53e-08
+feature synthetic_d32h128seed20261022 triangular_direct_q d=32 batch=128 server=0.049343s chain=0.102879s error=3.8e-08
+feature synthetic_d32h128seed20261022 real_signed_ldl d=32 batch=128 server=0.056620s chain=0.113335s error=1.36e-08
+feature synthetic_d32h128seed20261022 complex_paired_ldl d=32 batch=128 server=0.027522s chain=0.081873s error=1.07e-08
+feature heldout_d8h96seed20261023 triangular_direct_q d=8 batch=128 server=0.006051s chain=0.019294s error=2.29e-08
+feature heldout_d8h96seed20261023 real_signed_ldl d=8 batch=128 server=0.007321s chain=0.020554s error=1.42e-08
+feature heldout_d8h96seed20261023 complex_paired_ldl d=8 batch=128 server=0.005543s chain=0.020011s error=1.53e-08
+feature heldout_d16h96seed20261024 triangular_direct_q d=16 batch=128 server=0.017309s chain=0.046844s error=3.08e-08
+feature heldout_d16h96seed20261024 real_signed_ldl d=16 batch=128 server=0.016807s chain=0.045518s error=1.1e-08
+feature heldout_d16h96seed20261024 complex_paired_ldl d=16 batch=128 server=0.011273s chain=0.038883s error=1.1e-08
+feature spd_d16h64seed20261025 triangular_direct_q d=16 batch=128 server=0.016108s chain=0.041963s error=2.79e-08
+feature spd_d16h64seed20261025 real_signed_ldl d=16 batch=128 server=0.016788s chain=0.043560s error=9.71e-09
+feature spd_d16h64seed20261025 complex_paired_ldl d=16 batch=128 server=0.017136s chain=0.044520s error=1.17e-08
+wrote ../artifacts/final_v2/feature_matched/aggregate.json

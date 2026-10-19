@@ -1,0 +1,9 @@
+49490531
+github.com/tuneinsight/lattigo/v6 v6.2.0 h1:HZrksD5u87bOr/4hWHI1Jhps14Tafdvb84Fxmi3dou0=
+github.com/tuneinsight/lattigo/v6 v6.2.0/go.mod h1:GggYhNDBTIsKOB5AVOdt6qdmqhZqXu7uDyiXQYQANlY=
+
+go.sum database tree
+69425734
+UniD3MtBZYOie1DrF2nR6xzliBJ374A9yjG7WbowSe4=
+
+— sum.golang.org Az3grgYfm9S8fUV9JDZrJ+y9UR3FEs7nQ25W3ZP+yJI36uIPmLCTGFWnRLBFvgRmuHq9kVjCh0CjualL9i66xkrb9g4=

@@ -1,0 +1,13 @@
+import FHEQuadratic
+
+#print axioms FHEQuadratic.quadratic_transpose
+#print axioms FHEQuadratic.quadratic_preservation
+#print axioms FHEQuadratic.orientation_admissible
+#print axioms FHEQuadratic.orientation_preservation
+#print axioms FHEQuadratic.affine_score_preservation
+#print axioms FHEQuadratic.canonical_iff_val_le_half
+#print axioms FHEQuadratic.canonicalOffsets_card
+#print axioms FHEQuadratic.orientation_support_upper_bound
+#print axioms FHEQuadratic.activeOffsets_card_lower_bound
+#print axioms FHEQuadratic.orientation_support_exact
+#print axioms FHEQuadratic.orientation_support_optimal

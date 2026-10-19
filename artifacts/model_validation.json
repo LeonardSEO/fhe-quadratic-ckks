@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-10-19T08:30:15.801256+00:00",
+  "models_file_sha256": "985f69a2c3fe52bc6a565a6b21f11c7fdf2494850083ae8cecd477c63d0df7c3",
+  "model_identity_manifest_sha256": "080de5c2025fcdac3d0154e6f55501dbffdbbb0c80a720956cf35483b73407d9",
+  "random_points_per_model": 1000,
+  "all_corners_for_dimension8": true,
+  "heldout_models": [
+    "heldout_d8h96seed20261023",
+    "heldout_d16h96seed20261024"
+  ],
+  "generation_and_validation_seconds": 0.447428832994774,
+  "all_passed": true,
+  "ckks_execution_tested": false,
+  "models": [
+    {
+      "name": "archive8h64",
+      "model_identity_sha256": "e3d809c7fc43e025e42c42fdc2a4d9524654c303591ea2d3307514e32cb89c68",
+      "exact_integer_network_expansion_verified": true,
+      "exact_dyadic_coefficient_storage_verified": true,
+      "ldl_certificate_independently_recomputed": true,
+      "ldl_residual_box_unit_upper": 1.5217166427000472e-13,
+      "spectral_residual_box_unit_upper": 1.6189455187550967e-12,
+      "validation_sets": [
+        {
+          "input_family": "uniform_box",
+          "points": 1000,
+          "validation_seed": 20261100,
+          "input_sha256": "2a0fef59850cc2ca562796312a5eb58b3d8e266325cef819898c2027cc8ff9cc",
+          "max_abs_original_network_output": 496.1990488697064,
+          "numerical_assertion_threshold": 1e-08,
+          "network_vs_quadratic_max_abs": 2.2737367544323206e-13,
+          "network_vs_ldl_max_abs": 2.2737367544323206e-13,
+          "network_vs_spectral_max_abs": 7.958078640513122e-13,
+          "network_vs_complex_pairs_real_max_abs": 2.2737367544323206e-13
+        },
+        {
+          "input_family": "all_box_corners",
+          "points": 256,
+          "validation_seed": 20261100,
+          "input_sha256": "9626ed97bf5af97b513c9fdb7f7333d386b8d139f26ec63341226d03d5f8a070",
+          "max_abs_original_network_output": 1216.0,
+          "numerical_assertion_threshold": 1e-08,
+          "network_vs_quadratic_max_abs": 0.0,
+          "network_vs_ldl_max_abs": 3.410605131648481e-13,
+          "network_vs_spectral_max_abs": 9.094947017729282e-13,
+          "network_vs_complex_pairs_real_max_abs": 3.410605131648481e-13
+        }
+      ],
+      "ckks_execution_tested": false,
+      "scope": "coefficient certificate is uniform on box; point tests verify plaintext implementation only"
+    },
+    {
+      "name": "synthetic_d8h64seed20261020",
+      "model_identity_sha256": "ad4c40ba77c04c73daec8d246b01a72e8e902926749e02ab7673df296abae52f",
+      "exact_integer_network_expansion_verified": true,
+      "exact_dyadic_coefficient_storage_verified": true,
+      "ldl_certificate_independently_recomputed": true,
+      "ldl_residual_box_unit_upper": 1.1250029913940302e-16,
+      "spectral_residual_box_unit_upper": 1.0040454599640996e-15,
+      "validation_sets": [
+        {
+          "input_family": "uniform_box",
+          "points": 1000,
+          "validation_seed": 20261101,
+          "input_sha256": "98039eacd2f71c3d9ee0f7052cc8e2e2997ec8e5e14a4c599a0539a60bf69434",
+          "max_abs_original_network_output": 0.3328345796761809,
+          "numerical_assertion_threshold": 1e-11,
+          "network_vs_quadratic_max_abs": 1.1102230246251565e-16,
+          "network_vs_ldl_max_abs": 1.1102230246251565e-16,
+          "network_vs_spectral_max_abs": 3.885780586188048e-16,
+          "network_vs_complex_pairs_real_max_abs": 1.1102230246251565e-16
+        },
+        {
+          "input_family": "all_box_corners",
+          "points": 256,
+          "validation_seed": 20261101,
+          "input_sha256": "9626ed97bf5af97b513c9fdb7f7333d386b8d139f26ec63341226d03d5f8a070",
+          "max_abs_original_network_output": 0.609375,
+          "numerical_assertion_threshold": 1e-11,
+          "network_vs_quadratic_max_abs": 0.0,
+          "network_vs_ldl_max_abs": 1.1102230246251565e-16,
+          "network_vs_spectral_max_abs": 7.216449660063518e-16,
+          "network_vs_complex_pairs_real_max_abs": 1.1102230246251565e-16
+        }
+      ],
+      "ckks_execution_tested": false,
+      "scope": "coefficient certificate is uniform on box; point tests verify plaintext implementation only"
+    },
+    {
+      "name": "synthetic_d16h128seed20261021",
+      "model_identity_sha256": "de28d5a50bcb30239fe4d9de80b9e750e14a8a150a1ac9a3546521accf4d596b",
+      "exact_integer_network_expansion_verified": true,
+      "exact_dyadic_coefficient_storage_verified": true,
+      "ldl_certificate_independently_recomputed": true,
+      "ldl_residual_box_unit_upper": 2.2709635543971457e-16,
+      "spectral_residual_box_unit_upper": 7.360176678702587e-16,
+      "validation_sets": [
+        {
+          "input_family": "uniform_box",
+          "points": 1000,
+          "validation_seed": 20261102,
+          "input_sha256": "73462e8c6bffbb7f6cfff982afb6f1f3807eabd34a16b8157d8f0042a18d9484",
+          "max_abs_original_network_output": 0.10764640737240289,
+          "numerical_assertion_threshold": 1e-11,
+          "network_vs_quadratic_max_abs": 8.326672684688674e-17,
+          "network_vs_ldl_max_abs": 1.1015494072452725e-16,
+          "network_vs_spectral_max_abs": 1.249000902703301e-16,
+          "network_vs_complex_pairs_real_max_abs": 1.1102230246251565e-16
+        }
+      ],
+      "ckks_execution_tested": false,
+      "scope": "coefficient certificate is uniform on box; point tests verify plaintext implementation only"
+    },
+    {
+      "name": "synthetic_d32h128seed20261022",
+      "model_identity_sha256": "0e4044021618c02b49af7645d348da34ae69aa9ed514882ba5e1e330b168ac8b",
+      "exact_integer_network_expansion_verified": true,
+      "exact_dyadic_coefficient_storage_verified": true,
+      "ldl_certificate_independently_recomputed": true,
+      "ldl_residual_box_unit_upper": 1.9792909500098907e-16,
+      "spectral_residual_box_unit_upper": 7.286050561350588e-16,
+      "validation_sets": [
+        {
+          "input_family": "uniform_box",
+          "points": 1000,
+          "validation_seed": 20261103,
+          "input_sha256": "9cd685113cc324e2f1f15091b6c73843e8401b9b6b3e672e1f1ad23799687a28",
+          "max_abs_original_network_output": 0.056150663703263326,
+          "numerical_assertion_threshold": 1e-11,
+          "network_vs_quadratic_max_abs": 9.020562075079397e-17,
+          "network_vs_ldl_max_abs": 8.413408858487514e-17,
+          "network_vs_spectral_max_abs": 5.204170427930421e-17,
+          "network_vs_complex_pairs_real_max_abs": 9.454242944073599e-17
+        }
+      ],
+      "ckks_execution_tested": false,
+      "scope": "coefficient certificate is uniform on box; point tests verify plaintext implementation only"
+    },
+    {
+      "name": "heldout_d8h96seed20261023",
+      "model_identity_sha256": "dc2c2d3eb984300e935b5de8e72759629fcaa143e15560957f492d2c0909c4d7",
+      "exact_integer_network_expansion_verified": true,
+      "exact_dyadic_coefficient_storage_verified": true,
+      "ldl_certificate_independently_recomputed": true,
+      "ldl_residual_box_unit_upper": 1.2595622646727637e-16,
+      "spectral_residual_box_unit_upper": 6.990996698720945e-16,
+      "validation_sets": [
+        {
+          "input_family": "uniform_box",
+          "points": 1000,
+          "validation_seed": 20261104,
+          "input_sha256": "9a6c2931ad9c5ba5042d191b23c6d7aac20bbd29aef9b1279dd544fbaf46408c",
+          "max_abs_original_network_output": 0.3628725127417062,
+          "numerical_assertion_threshold": 1e-11,
+          "network_vs_quadratic_max_abs": 1.8041124150158794e-16,
+          "network_vs_ldl_max_abs": 2.7755575615628914e-16,
+          "network_vs_spectral_max_abs": 2.220446049250313e-16,
+          "network_vs_complex_pairs_real_max_abs": 1.3877787807814457e-16
+        },
+        {
+          "input_family": "all_box_corners",
+          "points": 256,
+          "validation_seed": 20261104,
+          "input_sha256": "9626ed97bf5af97b513c9fdb7f7333d386b8d139f26ec63341226d03d5f8a070",
+          "max_abs_original_network_output": 0.5810546875,
+          "numerical_assertion_threshold": 1e-11,
+          "network_vs_quadratic_max_abs": 0.0,
+          "network_vs_ldl_max_abs": 1.1102230246251565e-16,
+          "network_vs_spectral_max_abs": 4.440892098500626e-16,
+          "network_vs_complex_pairs_real_max_abs": 1.6653345369377348e-16
+        }
+      ],
+      "ckks_execution_tested": false,
+      "scope": "coefficient certificate is uniform on box; point tests verify plaintext implementation only"
+    },
+    {
+      "name": "heldout_d16h96seed20261024",
+      "model_identity_sha256": "e518b423cfa99a4a66e839c6532adbc318a1e7ba1a20300645071d6fb96a5d00",
+      "exact_integer_network_expansion_verified": true,
+      "exact_dyadic_coefficient_storage_verified": true,
+      "ldl_certificate_independently_recomputed": true,
+      "ldl_residual_box_unit_upper": 1.057585985690661e-16,
+      "spectral_residual_box_unit_upper": 7.897399235205161e-16,
+      "validation_sets": [
+        {
+          "input_family": "uniform_box",
+          "points": 1000,
+          "validation_seed": 20261105,
+          "input_sha256": "194c27d3824440f72d9fa5dbc49ed68c7fe9c1a3a67d09093285d6e3b250aeb8",
+          "max_abs_original_network_output": 0.11233813749005936,
+          "numerical_assertion_threshold": 1e-11,
+          "network_vs_quadratic_max_abs": 8.326672684688674e-17,
+          "network_vs_ldl_max_abs": 5.204170427930421e-17,
+          "network_vs_spectral_max_abs": 2.0816681711721685e-16,
+          "network_vs_complex_pairs_real_max_abs": 5.898059818321144e-17
+        }
+      ],
+      "ckks_execution_tested": false,
+      "scope": "coefficient certificate is uniform on box; point tests verify plaintext implementation only"
+    },
+    {
+      "name": "spd_d16h64seed20261025",
+      "model_identity_sha256": "f88889c914926c7c0df40717814ed318a4a805fcf35171389e582d859d50a6b9",
+      "exact_integer_network_expansion_verified": true,
+      "exact_dyadic_coefficient_storage_verified": true,
+      "ldl_certificate_independently_recomputed": true,
+      "ldl_residual_box_unit_upper": 5.215048787091923e-17,
+      "spectral_residual_box_unit_upper": 1.404660933035218e-15,
+      "validation_sets": [
+        {
+          "input_family": "uniform_box",
+          "points": 1000,
+          "validation_seed": 20261106,
+          "input_sha256": "b2474b8c7828e3ad91dd1138f4d6c9dda4a70f946739ee1d977d153abb2282b4",
+          "max_abs_original_network_output": 0.18630190959576293,
+          "numerical_assertion_threshold": 1e-11,
+          "network_vs_quadratic_max_abs": 2.220446049250313e-16,
+          "network_vs_ldl_max_abs": 5.551115123125783e-17,
+          "network_vs_spectral_max_abs": 2.220446049250313e-16,
+          "network_vs_complex_pairs_real_max_abs": 5.551115123125783e-17
+        }
+      ],
+      "ckks_execution_tested": false,
+      "scope": "coefficient certificate is uniform on box; point tests verify plaintext implementation only"
+    }
+  ]
+}

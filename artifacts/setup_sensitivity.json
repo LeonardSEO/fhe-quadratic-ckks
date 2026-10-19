@@ -1,0 +1,33 @@
+{
+  "scope": "optimistic baseline gets free public folding/factors, affine algebra and coefficient certificates; candidate pays actual costs. Uses codec controlled arm phases, no WAN claim.",
+  "results": [
+    {
+      "model": "archive8h64",
+      "first_integer_H_candidate_wins": 1
+    },
+    {
+      "model": "synthetic_d8h64seed20261020",
+      "first_integer_H_candidate_wins": 1
+    },
+    {
+      "model": "synthetic_d16h128seed20261021",
+      "first_integer_H_candidate_wins": 1
+    },
+    {
+      "model": "synthetic_d32h128seed20261022",
+      "first_integer_H_candidate_wins": 6
+    },
+    {
+      "model": "heldout_d8h96seed20261023",
+      "first_integer_H_candidate_wins": 1
+    },
+    {
+      "model": "heldout_d16h96seed20261024",
+      "first_integer_H_candidate_wins": 1
+    },
+    {
+      "model": "spd_d16h64seed20261025",
+      "first_integer_H_candidate_wins": 1
+    }
+  ]
+}

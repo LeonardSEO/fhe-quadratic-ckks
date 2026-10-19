@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-19T11:02:52.770225+00:00",
+  "scope": "Source/API audit plus independent check of separate-process smoke evidence; no benchmark rerun. Final45-process performance/RSS confirmation stays a separate same-process dataset.",
+  "all_checks_passed": true,
+  "issues": [],
+  "client_pid": 20399,
+  "server_pid": 20415,
+  "repeats": 3,
+  "max_abs_error": 3.814653771333498e-08,
+  "child_exit_peak_rss_bytes": 49479680,
+  "public_config_sha256": "0516822b4809ad172b8b7fcd8281f5733dbd5be7859516d0b2f6fd278800c907",
+  "artifact_sha256": {
+    "artifacts/separated_smoke/aggregate.json": "6ba2b96bc3a26f6bffe1955103703eaa1b2323edb6076b213e1ad74ad5778583"
+  },
+  "source_sha256": {
+    "bench/main.go": "563a458f53573bce799410d4a84d8a681d94caaa52bc3f8e0d0a0b01d3657c2a",
+    "bench/server_process.go": "8ba09af9675e3ea7b327e231d5567177fc7158e7f342038fd8c2d49b78b61d43",
+    "bench/transport.go": "15b4349ba6382bfa5dbc9990b2a3d6898b729a568125b16c3054bd99e9e7d4ae",
+    "bench/packed.go": "a1673fe8909858e48377c668fd5f672220230ca8f74236887aa590f7583f3019"
+  },
+  "binary_sha256": "ac0b2f5c708b58a03b20fb00410eed95f4fd60307b7f28c19bcf62487b2f8b66"
+}

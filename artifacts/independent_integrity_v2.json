@@ -1,0 +1,130 @@
+{
+  "checked_at_utc": "2026-10-19T08:54:34.635173+00:00",
+  "models_sha256": "985f69a2c3fe52bc6a565a6b21f11c7fdf2494850083ae8cecd477c63d0df7c3",
+  "counts": {
+    "exact_network_models": 7,
+    "packed_method_records": 105,
+    "ci_method_records": 105,
+    "factors_method_records": 70,
+    "feature_matched_method_records": 21,
+    "network_method_records": 35,
+    "confirmation_method_records": 45,
+    "heldout_method_records": 560,
+    "exact_affine_factor_certificates": 14,
+    "confirmation_unique_evaluation_keys": 45,
+    "heldout_random_input_model_pairs": 49000
+  },
+  "max_reported_errors": {
+    "packed": 3.175716301484499e-06,
+    "ci": 1.0610017454837362e-05,
+    "factors": 7.470784908036876e-06,
+    "feature_matched": 6.6908760629758035e-06,
+    "network": 2.862491101041087e-06,
+    "confirmation": 6.10533508593053e-08,
+    "heldout": 4.243945753046319e-06
+  },
+  "confirmation_chain_ratios": {
+    "synthetic_d8h64seed20261020": {
+      "oriented_direct": {
+        "per_round_baseline_over_candidate": [
+          1.1140613676139852,
+          1.0804850170691618,
+          1.0991296281783116,
+          1.0528226195004438,
+          1.1045814023472764
+        ],
+        "median": 1.0991296281783116,
+        "wins": 5
+      },
+      "oriented_bsgs3": {
+        "per_round_baseline_over_candidate": [
+          0.9234823124001651,
+          0.9494710566275323,
+          0.9326055762371193,
+          0.9094201226635513,
+          0.935500121462938
+        ],
+        "median": 0.9326055762371193,
+        "wins": 0
+      }
+    },
+    "synthetic_d16h128seed20261021": {
+      "oriented_direct": {
+        "per_round_baseline_over_candidate": [
+          1.2014189105054272,
+          1.2078061546672778,
+          1.2288044745837066,
+          1.13334995192284,
+          1.2077262964699385
+        ],
+        "median": 1.2077262964699385,
+        "wins": 5
+      },
+      "oriented_bsgs3": {
+        "per_round_baseline_over_candidate": [
+          1.050728163809344,
+          1.0437444356498335,
+          1.0769247232151704,
+          1.040939145444095,
+          1.0513218577394206
+        ],
+        "median": 1.050728163809344,
+        "wins": 5
+      }
+    },
+    "synthetic_d32h128seed20261022": {
+      "oriented_direct": {
+        "per_round_baseline_over_candidate": [
+          1.263917403725431,
+          1.2432997173102631,
+          1.2453754202039768,
+          1.2400055651512323,
+          1.231082413806222
+        ],
+        "median": 1.2432997173102631,
+        "wins": 5
+      },
+      "oriented_bsgs3": {
+        "per_round_baseline_over_candidate": [
+          1.1461438600041458,
+          1.1480612476020302,
+          1.1351738477724607,
+          1.139429915308196,
+          1.0746833970430214
+        ],
+        "median": 1.139429915308196,
+        "wins": 5
+      }
+    }
+  },
+  "issues": [],
+  "all_integrity_checks_passed": true,
+  "artifact_sha256": {
+    "artifacts/final_v2/packed/aggregate.json": "9a1ce65fd3c529e112d7828e4f34fe8062fb74ae1cf2eee4bdcd67a6597a7782",
+    "artifacts/final_v2/ci/aggregate.json": "f689c0efdef73ebc9bf6f1379ab8ec0c80ae226b04384c98e7bd86967659511a",
+    "artifacts/final_v2/factors/aggregate.json": "501220a9be69bd9e1a0588a61aa548a8d2d04f3a1684043850211abd440ab896",
+    "artifacts/final_v2/feature_matched/aggregate.json": "4f117ee2990bd2cba2dda156893c87127121c300d8e9ed59657ebcbf11ebc65e",
+    "artifacts/final_v2/network/aggregate.json": "9aa76b0e08dd4f8fd145b4a05111a0a35b14ba5300c3bb0fe5a9abae80178e08",
+    "artifacts/confirmation/records.json": "98c9cfd5f52e4ba6ef32237a8b74a529ba222af48a3c9238a5fdb95a71b2b73c",
+    "artifacts/heldout_inputs/summary.json": "8d643ac6e5ed8de10d1ed48f3cffaeeee02e2ebe4b6b015c21254fffb2729cfc"
+  },
+  "scope": "Read-only schema, equal parameters/inputs, serialized ciphertext integrity, stored result consistency, all medians, original coefficient expansion and exact factor-certificate recomputation. No decryption key persisted, so no independent ciphertext decryption rerun; no speed benchmark was executed.",
+  "repair_recheck": {
+    "checked_at_utc": "2026-10-19T10:52:42.361277+00:00",
+    "feature_regenerated_at": "2026-10-19T08:55:25Z",
+    "feature_quality_gate_present_and_all_21_reruns_verified": true,
+    "pooled_IID_statistic_removed": true,
+    "exact_method_sets_and_counterbalanced_order_verified": true,
+    "additional_issues": []
+  },
+  "source_sha256": {
+    "bench/transport.go": "a3c70fc0f9d57a5a2563ec0e58bf79a6ebe187eac466fcd2bc6c490909f9eeb0",
+    "bench/packed.go": "56bcf210763aed8b8ede543549d908885119ba782b689ccd0a14b7ba747e2808",
+    "bench/feature.go": "f59875ee6358178cee0ccdb40085221d3d849f4bd964f9a7e55275f94db4b80a",
+    "bench/factorpacked.go": "c09ebcdb6aca7af4abaaebc394e0617c4c8361b7d7bbfdd1c9679b20d44a37c4",
+    "bench/feature_test.go": "48326123a9925a377fd4a091deb60f024dba79caaefbd20c2258c62c26325a47",
+    "bench/network.go": "f43da245778606debfe7e30fc10ed345da9fa5d60dce0bc81e225366911dbb4c",
+    "bench/main.go": "94fef0f4a55d3c967741e9fd4b9c9a3b497e8458d22f59021dc816b124c471f1"
+  },
+  "current_binary_sha256": "99f8eb4f1e38f581adf4faa6cc0e0698ed202b54fe7a3da0ff2f418d242c51d5"
+}

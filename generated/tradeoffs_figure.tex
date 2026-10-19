@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+\begin{axis}[ybar,bar width=9pt,width=0.95\linewidth,height=4cm,ylabel={Ratio to baseline},symbolic x coords={d8 direct,d8 BSGS,d16 direct,d16 BSGS,d32 direct,d32 BSGS},xtick=data,x tick label style={rotate=30,anchor=east,font=\scriptsize},ymin=0,ymax=1.6,legend style={font=\scriptsize,at={(0.5,1.03)},anchor=south,legend columns=2}]
+\addplot coordinates {(d8 direct,0.95355016) (d8 BSGS,1.08173564) (d16 direct,0.83524869) (d16 BSGS,0.95122373) (d32 direct,0.78052946) (d32 BSGS,0.85977906)};
+\addlegendentry{Recurring chain time}
+\addplot coordinates {(d8 direct,0.75607459) (d8 BSGS,0.68732341) (d16 direct,0.71023825) (d16 BSGS,0.64842241) (d32 direct,1.28127428) (d32 BSGS,0.81554002)};
+\addlegendentry{Server peak RSS}
+\end{axis}
+\end{tikzpicture}

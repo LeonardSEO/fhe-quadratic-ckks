@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the versioned research artifact and its paper."
+type: software
+title: "Terminal-Scalar-Aware Compilation of Quadratic Scores for CKKS"
+authors:
+  - family-names: "van Hemert"
+    given-names: "Leonard"
+version: 1.0.0
+license: MIT
+abstract: >-
+  A scalar-consumer-aware cyclic-orientation transformation for public quadratic
+  scores, with general algebraic proofs, Lean formalization, and frozen CKKS
+  execution evidence. Code and Lean are MIT; paper and data are CC BY 4.0.
