@@ -28,7 +28,9 @@ def main():
         run([sys.executable,'check_axioms.py'],ROOT/'lean')
     if phase('paper'):
         tectonic=os.environ.get('CODEX_TECTONIC_PATH') or shutil.which('tectonic')
-        if tectonic:run([tectonic,'--keep-logs','--keep-intermediates','paper.tex'])
+        if tectonic:
+            bundle=os.environ.get('TECTONIC_BUNDLE')
+            run([tectonic]+(['--bundle',bundle] if bundle else [])+['--keep-logs','--keep-intermediates','paper.tex'])
         else:run(['latexmk','-pdf','-halt-on-error','-interaction=nonstopmode','paper.tex'])
         pdf=ROOT/'paper.pdf';assert pdf.read_bytes().startswith(b'%PDF-'), 'Missing PDF'
         log=(ROOT/'paper.log').read_text(errors='replace')

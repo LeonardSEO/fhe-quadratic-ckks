@@ -61,7 +61,7 @@ go test ./...
 go vet ./...
 go build -o fhebench .
 cd ..
-sh scripts/run_smoke.sh
+bash scripts/run_smoke.sh
 ```
 
 The smoke uses a new output directory, fresh keys, serialized public evaluation
@@ -94,3 +94,7 @@ tectonic --keep-logs --keep-intermediates paper.tex
 A TeX Live alternative is `latexmk -pdf -interaction=nonstopmode -halt-on-error
 paper.tex`. Check the log for missing citations/references, then inspect rendered
 pages. The frozen PDF records the compiler actually used in validation evidence.
+
+For an already available local official Tectonic bundle, set `TECTONIC_BUNDLE`
+to its path when running `scripts/check_release.py --phase paper`. This changes
+resource acquisition only; it does not change the manuscript or engine.

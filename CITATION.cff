@@ -11,3 +11,6 @@ abstract: >-
   A scalar-consumer-aware cyclic-orientation transformation for public quadratic
   scores, with general algebraic proofs, Lean formalization, and frozen CKKS
   execution evidence. Code and Lean are MIT; paper and data are CC BY 4.0.
+doi: 10.5281/zenodo.23474352
+repository-code: "https://github.com/LeonardSEO/fhe-quadratic-ckks"
+url: "https://doi.org/10.5281/zenodo.23474352"

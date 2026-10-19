@@ -11,9 +11,9 @@ Status is evidence-driven. An unchecked item is not complete.
 - [x] Manuscript compiled, bibliography/cross-references checked, PDF inspected.
 - [x] Independent concrete findings resolved and verification boundaries recorded.
 - [x] Clean extracted checkout validated; manifests finalized.
-- [ ] Dedicated GitHub repository pushed; required hosted checks successful.
-- [ ] Exactly one manual Zenodo draft created and actual DOI reserved.
-- [ ] Reserved DOI inserted; final PDF/metadata rebuilt and revalidated.
+- [x] Dedicated GitHub repository pushed; required hosted checks successful.
+- [x] Exactly one manual Zenodo draft created and actual DOI reserved.
+- [x] Reserved DOI inserted; final PDF/metadata rebuilt and revalidated.
 - [ ] Final commit checked; immutable version tag and GitHub release created.
 - [ ] Exact tagged archive, paper and supplement uploaded with hashes.
 - [ ] Zenodo record published; DOI, visibility, metadata and downloads verified.

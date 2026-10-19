@@ -20,4 +20,11 @@ tectonic --bundle "$TECTONIC_BUNDLE" --keep-logs --keep-intermediates paper.tex
 
 `TECTONIC_BUNDLE` is an optional local resource directory in that workaround. On a clean machine with working Tectonic bundle access, `tectonic paper.tex` is sufficient. A normal TeX Live build can instead run LaTeX, BibTeX, and two LaTeX passes. This environment workaround does not change manuscript source or create a substitute PDF.
 
-The artifact DOI is omitted until an actual DOI is reserved. If DOI metadata or other paper content changes, recompile and check the new PDF before archiving; this record describes the inspected nine-page manuscript state and is not an assertion that a deposit is already published.
+The actual reserved DOI `10.5281/zenodo.23474352` was inserted after creation of the manual Zenodo draft. The PDF was recompiled successfully; its DOI-bearing page 8 was rendered at 130 dpi and visually checked. The identifier is readable, the hyperlink targets `https://doi.org/10.5281/zenodo.23474352`, and the paragraph explicitly states that reservation alone is not publication. This validation does not assert a published deposit. The document remains nine A4 pages, with no diagnostics, unresolved references or clipping.
+
+Hashes of this DOI-bearing manuscript state:
+
+- `paper.tex`: `155d4f08521623ba02bf76ba2d7018fd73fc0842e8dcfd038ccb1579c246a723`
+- `paper.pdf`: `a5a0135474e035157da17899cb0d67373f78415fa68e68f94957b87865bf83da`
+
+If other paper content changes, recompile and check the new PDF and update these hashes before archiving.

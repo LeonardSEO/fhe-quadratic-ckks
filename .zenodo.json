@@ -16,5 +16,13 @@
     "quadratic forms",
     "compiler optimization",
     "Lean 4"
+  ],
+  "doi": "10.5281/zenodo.23474352",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LeonardSEO/fhe-quadratic-ckks",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
   ]
 }

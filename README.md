@@ -2,6 +2,10 @@
 
 Leonard van Hemert · research artifact, version 1.0.0
 
+Repository: https://github.com/LeonardSEO/fhe-quadratic-ckks
+
+Artifact DOI: [10.5281/zenodo.23474352](https://doi.org/10.5281/zenodo.23474352) (reserved; publication verification is recorded in `docs/PUBLICATION.md`).
+
 This release studies a compiler pass for public scalar quadratic scores
 `xᵀQx + ℓᵀx + c`. It chooses an admissible representative `A + Aᵀ = 2Q`
 whose cyclic-diagonal support is smaller, then uses existing CKKS linear-transform
