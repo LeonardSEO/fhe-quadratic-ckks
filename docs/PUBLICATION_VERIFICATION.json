@@ -1,0 +1,121 @@
+{
+  "checked_at_utc": "2026-10-19T13:11:55.578229+00:00",
+  "record_api": "https://zenodo.org/api/records/23474352",
+  "public_record": "https://zenodo.org/records/23474352",
+  "record_state": "done",
+  "submitted": true,
+  "doi": "10.5281/zenodo.23474352",
+  "metadata": {
+    "title": "Terminal-Scalar-Aware Compilation of Quadratic Scores for CKKS",
+    "doi": "10.5281/zenodo.23474352",
+    "publication_date": "2026-10-19",
+    "description": "<p>Research artifact for terminal-scalar-aware compilation of public quadratic scores for CKKS. The compiler orients cyclic offsets before existing Lattigo direct/BSGS lowering, preserving the terminal scalar score. Includes a nine-page paper, implementation, frozen models and encrypted execution records, reproducible scripts, and a checked Lean 4 project. General algebraic preservation and restricted support optimality are proved for every positive dimension; encrypted evaluation covers dimensions 8, 16 and 32 at batch 128. Measured speed and memory changes are plan-dependent; no global circuit optimality, uniform CKKS error theorem, new security proof, or historical priority is claimed. Code and Lean: MIT. Paper, documentation and research data: CC BY 4.0. See the scoped license and verification-boundary documents in the source archive.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "van Hemert, Leonard",
+        "affiliation": null
+      }
+    ],
+    "keywords": [
+      "fully homomorphic encryption",
+      "CKKS",
+      "Lean 4"
+    ],
+    "version": "1.0.0",
+    "custom": {
+      "code:codeRepository": "https://github.com/LeonardSEO/fhe-quadratic-ckks"
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "23474351"
+          }
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "name": "ciphertext-evidence-v1.0.0.tar",
+      "public_url": "https://zenodo.org/api/records/23474352/files/ciphertext-evidence-v1.0.0.tar/content",
+      "http_download_success": true,
+      "bytes": 650721280,
+      "sha256": "43fcc8519febb83d7e86b419badc9510183bf713583b87909f935e463c399aeb",
+      "zenodo_md5_matches": true,
+      "local_sha256_matches": true,
+      "verification_note": "Full unauthenticated stream verified in the immediately preceding verification execution; retained after unrelated small-file connection reset."
+    },
+    {
+      "name": "paper.pdf",
+      "public_url": "https://zenodo.org/api/records/23474352/files/paper.pdf/content",
+      "http_download_success": true,
+      "bytes": 128140,
+      "sha256": "ac1a63ee887431e3891044d9766d83a59d92c58a4236f340ae97949d62a33f02",
+      "zenodo_md5_matches": true,
+      "local_sha256_matches": true,
+      "verification_note": "Full unauthenticated stream verified in the immediately preceding verification execution; retained after unrelated small-file connection reset."
+    },
+    {
+      "name": "fresh-validation-v1.0.0.tar.gz",
+      "public_url": "https://zenodo.org/api/records/23474352/files/fresh-validation-v1.0.0.tar.gz/content",
+      "http_download_success": true,
+      "bytes": 941384,
+      "sha256": "c3398bd16adb020990b18bbeadf887b584fda0ddd962d037bd84e65edfe81a88",
+      "zenodo_md5_matches": true,
+      "local_sha256_matches": true,
+      "verification_note": "Full unauthenticated stream verified in the immediately preceding verification execution; retained after unrelated small-file connection reset."
+    },
+    {
+      "name": "fhe-quadratic-ckks-v1.0.0-source-manifest.json",
+      "public_url": "https://zenodo.org/api/records/23474352/files/fhe-quadratic-ckks-v1.0.0-source-manifest.json/content",
+      "http_download_success": true,
+      "bytes": 800252,
+      "sha256": "56c006b7b37cda539d4be7cbccaceb8ea09c5dd98813d7b16944e582f0431042",
+      "zenodo_md5_matches": true,
+      "local_sha256_matches": true
+    },
+    {
+      "name": "release-evidence-v1.0.0.json",
+      "public_url": "https://zenodo.org/api/records/23474352/files/release-evidence-v1.0.0.json/content",
+      "http_download_success": true,
+      "bytes": 2965,
+      "sha256": "66dd342f0985dc42a42cf53fa22dd80126cab8461ac15dacd0374199d4ed7bce",
+      "zenodo_md5_matches": true,
+      "local_sha256_matches": true,
+      "verification_note": "Full unauthenticated stream verified in the immediately preceding verification execution; retained after unrelated small-file connection reset."
+    },
+    {
+      "name": "fhe-quadratic-ckks-v1.0.0.tar.gz",
+      "public_url": "https://zenodo.org/api/records/23474352/files/fhe-quadratic-ckks-v1.0.0.tar.gz/content",
+      "http_download_success": true,
+      "bytes": 20402331,
+      "sha256": "b0fd5262b0f6146992a9d2df101d85c2ea2d9f743bc7427ad230e1f21351a71a",
+      "zenodo_md5_matches": true,
+      "local_sha256_matches": true
+    }
+  ],
+  "verification_scope": "Independent unauthenticated public API, DOI redirects and all six full public downloads streamed through SHA-256 and MD5; bytes compared with local released files. No credentials supplied; large downloads not duplicated on disk.",
+  "public_record_http": {
+    "status": 200,
+    "effective_url": "https://zenodo.org/records/23474352",
+    "verification_note": "Live unauthenticated GET checked in preceding execution."
+  },
+  "doi_http": {
+    "status": 200,
+    "effective_url": "https://zenodo.org/records/23474352",
+    "verification_note": "Live DOI redirect followed successfully to public record in preceding execution."
+  },
+  "status": "PASS"
+}
