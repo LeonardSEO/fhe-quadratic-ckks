@@ -1,10 +1,14 @@
+Pinned paper SOURCE_DATE_EPOCH=1792368000
++ /Applications/ChatGPT.app/Contents/Resources/tectonic/tectonic --bundle /tmp/fhe-texbundle --keep-logs --keep-intermediates paper.tex
 note: Running TeX ...
 note: Running BibTeX on paper.aux ...
 note: Rerunning TeX because bibtex was run ...
 note: Running xdvipdfmx ...
-note: Writing `paper.log` (27.34765625 KiB)
 note: Writing `paper.aux` (6.677734375 KiB)
-note: Writing `paper.pdf` (125.138671875 KiB)
-note: Writing `paper.bbl` (5.4501953125 KiB)
-note: Writing `paper.out` (2.36328125 KiB)
 note: Writing `paper.blg` (195 B)
+note: Writing `paper.out` (2.36328125 KiB)
+note: Writing `paper.bbl` (5.4501953125 KiB)
+note: Writing `paper.pdf` (125.13671875 KiB)
+note: Writing `paper.log` (27.34765625 KiB)
+PASS PDF text extraction; no unresolved reference markers
+PASS release gate: paper

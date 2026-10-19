@@ -30,6 +30,7 @@ For full ciphertext validation, extract the published `ciphertext-evidence`
 supplement into the checkout root, preserving its `artifacts/` tree, then run:
 
 ```sh
+python3 scripts/integrity.py --strict
 python3 scripts/verify_evidence.py --strict-ciphertexts
 ```
 
@@ -98,3 +99,13 @@ pages. The frozen PDF records the compiler actually used in validation evidence.
 For an already available local official Tectonic bundle, set `TECTONIC_BUNDLE`
 to its path when running `scripts/check_release.py --phase paper`. This changes
 resource acquisition only; it does not change the manuscript or engine.
+
+To package the exact tagged source and verify the public binary supplement:
+
+```sh
+python3 scripts/package_release.py --ref v1.0.0 --source --out dist
+python3 scripts/package_release.py --ref v1.0.0 --verify-supplement dist/ciphertext-evidence-v1.0.0.tar
+```
+
+The external file manifest and release-evidence JSON identify the exact Git
+commit, tag and uploaded file hashes without a self-referential archive hash.

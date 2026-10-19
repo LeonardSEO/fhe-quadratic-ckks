@@ -15,7 +15,7 @@ The installed executable could not fetch its default TeX resource bundle through
 The equivalent final build command is:
 
 ```sh
-tectonic --bundle "$TECTONIC_BUNDLE" --keep-logs --keep-intermediates paper.tex
+SOURCE_DATE_EPOCH=$(cat paper.build_epoch) tectonic --bundle "$TECTONIC_BUNDLE" --keep-logs --keep-intermediates paper.tex
 ```
 
 `TECTONIC_BUNDLE` is an optional local resource directory in that workaround. On a clean machine with working Tectonic bundle access, `tectonic paper.tex` is sufficient. A normal TeX Live build can instead run LaTeX, BibTeX, and two LaTeX passes. This environment workaround does not change manuscript source or create a substitute PDF.
@@ -25,6 +25,10 @@ The actual reserved DOI `10.5281/zenodo.23474352` was inserted after creation of
 Hashes of this DOI-bearing manuscript state:
 
 - `paper.tex`: `155d4f08521623ba02bf76ba2d7018fd73fc0842e8dcfd038ccb1579c246a723`
-- `paper.pdf`: `a5a0135474e035157da17899cb0d67373f78415fa68e68f94957b87865bf83da`
+- `paper.pdf`: `ac1a63ee887431e3891044d9766d83a59d92c58a4236f340ae97949d62a33f02`
 
 If other paper content changes, recompile and check the new PDF and update these hashes before archiving.
+
+## Deterministic PDF timestamp
+
+`paper.build_epoch` pins `SOURCE_DATE_EPOCH=1792368000`, exactly 2026-10-19 00:00:00 UTC. The paper phase of `scripts/check_release.py` loads this file and sets the build environment. Two consecutive actual Tectonic builds produced byte-identical PDFs, confirmed with SHA256 and `cmp`; both gave the PDF hash recorded above. This establishes repeatability for the pinned local Tectonic/resource environment, not byte identity across different LaTeX engines or package distributions. The final DOI-bearing page 8 was rendered again at 130 dpi and inspected after this change.

@@ -27,6 +27,11 @@ def main():
         run(['lake','build'],ROOT/'lean')
         run([sys.executable,'check_axioms.py'],ROOT/'lean')
     if phase('paper'):
+        epoch=(ROOT/'paper.build_epoch').read_text().strip()
+        assert epoch.isdecimal() and int(epoch)>0, 'Invalid pinned PDF build epoch'
+        os.environ['SOURCE_DATE_EPOCH']=epoch
+        os.environ['TZ']='UTC'
+        print('Pinned paper SOURCE_DATE_EPOCH='+epoch,flush=True)
         tectonic=os.environ.get('CODEX_TECTONIC_PATH') or shutil.which('tectonic')
         if tectonic:
             bundle=os.environ.get('TECTONIC_BUNDLE')
