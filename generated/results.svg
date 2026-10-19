@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+<title id="title">Complete encrypted inference: baseline versus cyclic orientation</title>
+<desc id="desc">Separate client and server processes, batch 128. Baseline and oriented full inference times in milliseconds at dimensions 8, 16 and 32. Bars begin at zero; lower is better.</desc>
+<rect width="960" height="430" fill="#fff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#17212b}.title{font-size:23px;font-weight:700}.sub{font-size:14px;fill:#526170}.label{font-size:16px;font-weight:700}.value{font-size:14px}.tick{font-size:12px;fill:#64717d}.gain{font-size:15px;font-weight:700;fill:#16634b}</style>
+<text x="36" y="39" class="title">Complete encrypted inference, less work</text>
+<text x="36" y="65" class="sub">Full loopback chain in milliseconds · same model, parameters and error requirement</text>
+<rect x="36" y="86" width="15" height="11" fill="#8c99a5"/><text x="59" y="97" class="sub">Optimized baseline</text>
+<rect x="242" y="86" width="15" height="11" fill="#176b9a"/><text x="265" y="97" class="sub">Cyclic orientation</text>
+<line x1="132" y1="124" x2="132" y2="345" stroke="#e7ebee"/>
+<text x="132" y="367" class="tick" text-anchor="middle">0</text>
+<line x1="282" y1="124" x2="282" y2="345" stroke="#e7ebee"/>
+<text x="282" y="367" class="tick" text-anchor="middle">5</text>
+<line x1="432" y1="124" x2="432" y2="345" stroke="#e7ebee"/>
+<text x="432" y="367" class="tick" text-anchor="middle">10</text>
+<line x1="582" y1="124" x2="582" y2="345" stroke="#e7ebee"/>
+<text x="582" y="367" class="tick" text-anchor="middle">15</text>
+<line x1="732" y1="124" x2="732" y2="345" stroke="#e7ebee"/>
+<text x="732" y="367" class="tick" text-anchor="middle">20</text>
+<text x="36" y="159" class="label">d = 8</text>
+<rect x="132" y="137" width="261.43749" height="17" rx="2" fill="#8c99a5"/>
+<text x="401.43749" y="150" class="value">8.715</text>
+<rect x="132" y="161" width="249.29376" height="17" rx="2" fill="#176b9a"/>
+<text x="389.29376" y="174" class="value">8.310</text>
+<text x="845" y="165" class="gain" text-anchor="end">−4.6%</text>
+<text x="36" y="235" class="label">d = 16</text>
+<rect x="132" y="213" width="364.16250" height="17" rx="2" fill="#8c99a5"/>
+<text x="504.16250" y="226" class="value">12.139</text>
+<rect x="132" y="237" width="304.16625" height="17" rx="2" fill="#176b9a"/>
+<text x="444.16625" y="250" class="value">10.139</text>
+<text x="845" y="241" class="gain" text-anchor="end">−16.5%</text>
+<text x="36" y="311" class="label">d = 32</text>
+<rect x="132" y="289" width="599.48250" height="17" rx="2" fill="#8c99a5"/>
+<text x="739.48250" y="302" class="value">19.983</text>
+<rect x="132" y="313" width="515.42250" height="17" rx="2" fill="#176b9a"/>
+<text x="655.42250" y="326" class="value">17.181</text>
+<text x="845" y="317" class="gain" text-anchor="end">−14.0%</text>
+<text x="132" y="390" class="sub">Lower is better</text>
+<text x="36" y="416" class="tick">Apple M4 · batch 128 · five process/key rounds × 31 inferences · median of process medians</text>
+</svg>

@@ -14,8 +14,8 @@ Status is evidence-driven. An unchecked item is not complete.
 - [x] Dedicated GitHub repository pushed; required hosted checks successful.
 - [x] Exactly one manual Zenodo draft created and actual DOI reserved.
 - [x] Reserved DOI inserted; final PDF/metadata rebuilt and revalidated.
-- [ ] Final commit checked; immutable version tag and GitHub release created.
-- [ ] Exact tagged archive, paper and supplement uploaded with hashes.
+- [x] Final commit checked; immutable version tag and GitHub release created.
+- [x] Exact tagged archive, paper and supplement uploaded with hashes.
 - [ ] Zenodo record published; DOI, visibility, metadata and downloads verified.
 
 The canonical final state is recorded in `docs/PUBLICATION.md` and the hosted

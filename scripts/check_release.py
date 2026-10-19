@@ -18,6 +18,8 @@ def main():
         run([sys.executable,'scripts/check_correspondence.py','--check'])
         run([sys.executable,'scripts/verify_evidence.py']+(['--strict-ciphertexts'] if args.strict_ciphertexts else []))
         run([sys.executable,'scripts/generate_paper_data.py','--check'])
+        if (ROOT/'scripts/generate_readme_figure.py').exists():
+            run([sys.executable,'scripts/generate_readme_figure.py','--check'])
     if phase('go'):
         run(['go','mod','verify'],ROOT/'bench')
         run(['go','test','-count=1','./...'],ROOT/'bench')
